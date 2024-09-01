@@ -25,11 +25,11 @@ GitHub Repository, at the following link (my Home Page):
 https://github.com/GilbertoCsar/Step_Motor_Control.git
 Create, firstly, a new folder in the explorer with the path :
 C:\Users\yourname*\Documents\Arduino\sketch_stepmotor10\
-* yourname : is the owner's name of the computer
-And then, move all the 8 files (unpacked) + 1 file(packed) to that new folder.
-One from those 8 unpacked files is the : sketch_stepmotor10.ino .
+* yourname : is the owner's name of the computer.
+And then, move all the 6 files (unpacked) + 1 file(packed) to that new folder.
+One from those 6 unpacked files is the : sketch_stepmotor10.ino .
 The packed file is the RotaryEncoder-master.zip (it should be left so, packed).
-***USAGE APPLICATION***
+***USAGE-APPLICATION***
  ***Unexpected Operation***
  When you would be to transfer the Sketch(Code) from the computer to the
  Arduino board (so making Upload), may be that the Software begins the run and
@@ -45,10 +45,10 @@ The packed file is the RotaryEncoder-master.zip (it should be left so, packed).
  the final of that cycle (Direct/Reverse).
  Then, to start in fact, the motor's operation, you can press and left once, the
  reset Button (on the Arduino board).
- ***Runnig the Sketch(Code) - Three Particular Cases***
+ ***Running the Sketch(Code) - Three Particular Cases***
  You may Simulate, with this code, each one among 3 particular cases, as follows:
  1) One fault in the electrical Power Supply, occuring during the Direct Mode of
-    the step motor, followed by another fault occurig in the Reverse Mode (
+    the step motor, followed by another fault occuring in the Reverse Mode (
     strictly in this order);
  2) One fault in the electrical Power Supply, occuring once, during the Direct Mode,
     only;
@@ -57,9 +57,17 @@ The packed file is the RotaryEncoder-master.zip (it should be left so, packed).
  In order to begin again, each one of these cases, you should press and left once,
  before, the Stop Button.
  As an example of this 1), you can see the Video, cited before, in this README.md
+***LICENSE INFORMATION***
+***Hardware***
+The Hardware is not released under any 
+license till the present moment yet. 
+***Software***
+The Code license is of the Beerware license kind.
+
 ***ACKNOWLEDGEMENTS***
-I, Gilberto César Balthazar, thanks
-To  GitHub.com, Matthias Hertel, YouTube.com.br, Electrical e-Library.com,Microsoft,
+I, Gilberto César Balthazar, thank
+To  GitHub.com, Matthias Hertel,Ben Gray,
+Arduino.com, YouTube.com.br, Electrical e-Library.com,Microsoft,
     Google.com, Mercado Libre.com.br, Instituto Digital.com.br, Eugenio H.P.,
     Universidade Estadual de Campinas(UNICAMP), Universidade Federal de Itajubá(
     UNIFEI), Escola Técnica Estadual de Segundo Grau 'Bento Quirino', Petrobras,
