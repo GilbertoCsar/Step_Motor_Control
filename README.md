@@ -8,7 +8,7 @@ stages of the Control Process operation :
 Direct drive and Reverse drive of the motor and if is occuring 
 Recovery of the positioning by the motor, with the Control System,
 after an eventual fault of the electrical Power Supply.
-This project does not involves any Limit Switches, because it involves
+This project does not involve any Limit Switches, because it involves
 the use of an incremental rotary encoder.
 The Accuracy is equal to  +/- 1 (one) pulse of encoder.
 ***VIEWING & DOWNLOADING THE VIDEO***
@@ -40,10 +40,10 @@ The packed file is the RotaryEncoder-master.zip (it should be left so, packed).
  lighting the smd stable blue led (at the left side of motor), when the upload
  finishes. Thus, how should I proceed?
  It's enough to wait by the smd stable blue led to turn to off; and then to
- press and left once, the Stop Button.
+ press and let go once, the Stop Button.
  So, the Step Motor Control System will finalize with the motor's operation, at
  the final of that cycle (Direct/Reverse).
- Then, to start in fact, the motor's operation, you can press and left once, the
+ Then, to start in fact, the motor's operation, you can press and let go once, the
  reset Button (on the Arduino board).
  ***Running the Sketch(Code) - Three Particular Cases***
  You may Simulate, with this code, each one among 3 particular cases, as follows:
@@ -54,7 +54,7 @@ The packed file is the RotaryEncoder-master.zip (it should be left so, packed).
     only;
  3) One fault in the electrical Power Supply, occuring once, during the Reverse Mode,
     only.
- In order to begin again, each one of these cases, you should press and left once,
+ In order to begin again, each one of these cases, you should press and let go once,
  before, the Stop Button.
  As an example of this 1), you can see the Video, cited before, in this README.md
 ***LICENSE INFORMATION***
